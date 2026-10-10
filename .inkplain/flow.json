@@ -4,7 +4,7 @@
     "slug": "human-in-the-loop-ai-action-approval-gateway",
     "name": "Human-in-the-Loop AI Action Approval Gateway"
   },
-  "current": "content",
+  "current": "done",
   "stages": {
     "intro": {
       "status": "done",
@@ -47,12 +47,18 @@
       "updated_by": "api-key:for-chatgpt-test-2"
     },
     "content": {
-      "status": "in_progress",
-      "summary": "Creating source-backed Overview, six STEP lesson categories, Conclusion; reviewing CRD matrix and linked code.",
+      "status": "done",
+      "summary": "8 active categories and 35 lessons verified, sampled STEP source/CRD/INKP blocks read back. Fixture limitations disclosed.",
       "started_at": "2026-10-10T15:04:42.073Z",
-      "finished_at": null,
-      "updated_by": "api-key:for-chatgpt-test-2"
+      "finished_at": "2026-10-10T15:32:14.900Z",
+      "updated_by": "api-key:for-chatgpt-test-2",
+      "outputs": {
+        "portal_url": "/practical-case/human-in-the-loop-ai-action-approval-gateway",
+        "categories": 8,
+        "items": 35,
+        "structural_qa": true
+      }
     }
   },
-  "updated_at": "2026-10-10T15:04:42.073Z"
+  "updated_at": "2026-10-10T15:32:14.900Z"
 }
