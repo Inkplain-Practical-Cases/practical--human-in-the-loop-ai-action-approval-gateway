@@ -4,7 +4,7 @@
     "slug": "human-in-the-loop-ai-action-approval-gateway",
     "name": "Human-in-the-Loop AI Action Approval Gateway"
   },
-  "current": "inkp",
+  "current": "content",
   "stages": {
     "intro": {
       "status": "done",
@@ -31,7 +31,21 @@
         "ci_success": 7,
         "ci_total": 7
       }
+    },
+    "inkp": {
+      "status": "done",
+      "summary": "Six ordered STEP tabs, 34 linked executor documents, zero missing links; verified by MCP.",
+      "outputs": {
+        "inkp_path": "human-in-the-loop-ai-action-approval-gateway.inkp",
+        "inkp_url": "https://github.com/Inkplain-Practical-Cases/practical--human-in-the-loop-ai-action-approval-gateway/blob/main/human-in-the-loop-ai-action-approval-gateway.inkp",
+        "tabs": 6,
+        "linked_executors": 34,
+        "missing_links": 0
+      },
+      "started_at": "2026-10-10T15:02:13.416Z",
+      "finished_at": "2026-10-10T15:02:13.416Z",
+      "updated_by": "api-key:for-chatgpt-test-2"
     }
   },
-  "updated_at": "2026-10-10T14:57:41.843Z"
+  "updated_at": "2026-10-10T15:02:13.416Z"
 }
