@@ -1,3 +1,3 @@
-# STEP-3 — Queue pending approval request
+# STEP-4 — Enforce reviewer authorization
 
 Study policy and approval code through CRD components. Verify using `pytest -q`.
