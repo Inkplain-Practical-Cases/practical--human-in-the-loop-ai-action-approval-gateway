@@ -4,9 +4,11 @@ from app.features.feature_pipeline.services.service_validate import service_vali
 from app.features.feature_pipeline.services.service_policy import service_policy
 from app.features.feature_pipeline.services.service_queue import service_queue
 from app.features.feature_pipeline.services.service_authorize import service_authorize
+from app.features.feature_pipeline.services.service_expiry import service_expiry
 def handle_request(body: ActionRequest) -> dict:
     state=service_validate(body.model_dump())
     state=service_policy(state)
     state=service_queue(state)
     state=service_authorize(state)
+    state=service_expiry(state)
     return state
