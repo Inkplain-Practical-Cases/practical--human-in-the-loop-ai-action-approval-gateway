@@ -1,0 +1,37 @@
+{
+  "practical_case": {
+    "id": "9pw2YbzBa4u1BRkci5RM",
+    "slug": "human-in-the-loop-ai-action-approval-gateway",
+    "name": "Human-in-the-Loop AI Action Approval Gateway"
+  },
+  "current": "inkp",
+  "stages": {
+    "intro": {
+      "status": "done",
+      "summary": "Seven verified introduction sections, FDE Junior case and distinct cover uploaded.",
+      "outputs": {
+        "portal_url": "/practical-case/human-in-the-loop-ai-action-approval-gateway",
+        "profile": "forward-deployed-engineering",
+        "level": "junior",
+        "intro_sections": 7
+      },
+      "started_at": "2026-10-10T14:39:45.567Z",
+      "finished_at": "2026-10-10T14:39:45.567Z",
+      "updated_by": "api-key:for-chatgpt-test-2"
+    },
+    "repo": {
+      "status": "done",
+      "summary": "Six cumulative branch implementations with STEP-N.md/CRD, promoted final main with FINAL.crd, GitHub Actions pytest success on six branches and main.",
+      "started_at": "2026-10-10T14:41:24.372Z",
+      "finished_at": "2026-10-10T14:57:41.843Z",
+      "updated_by": "api-key:for-chatgpt-test-2",
+      "outputs": {
+        "repo_url": "https://github.com/Inkplain-Practical-Cases/practical--human-in-the-loop-ai-action-approval-gateway",
+        "steps": 6,
+        "ci_success": 7,
+        "ci_total": 7
+      }
+    }
+  },
+  "updated_at": "2026-10-10T14:57:41.843Z"
+}
