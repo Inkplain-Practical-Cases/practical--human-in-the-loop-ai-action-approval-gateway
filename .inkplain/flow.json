@@ -48,7 +48,7 @@
     },
     "content": {
       "status": "done",
-      "summary": "8 active categories and 35 lessons verified, sampled STEP source/CRD/INKP blocks read back. Fixture limitations disclosed.",
+      "summary": "Source-backed persistence audit completed: Approval queue and audit objects are transient request dictionaries; dry-run executor writes no durable records. Therefore no STEP-N.erd, ERD tabs or Database lesson is warranted.",
       "started_at": "2026-10-10T15:04:42.073Z",
       "finished_at": "2026-10-10T15:32:14.900Z",
       "updated_by": "api-key:for-chatgpt-test-2",
@@ -56,9 +56,15 @@
         "portal_url": "/practical-case/human-in-the-loop-ai-action-approval-gateway",
         "categories": 8,
         "items": 35,
-        "structural_qa": true
+        "structural_qa": true,
+        "erd_audit_complete": true,
+        "erd_applicable_steps": [],
+        "erd_not_applicable": true,
+        "erd_lessons_created": 0,
+        "erd_item_title": "Database (Entity) Relations",
+        "erd_audit_note": "Approval queue and audit objects are transient request dictionaries; dry-run executor writes no durable records."
       }
     }
   },
-  "updated_at": "2026-10-10T15:32:14.900Z"
+  "updated_at": "2026-10-13T15:13:47.588Z"
 }
