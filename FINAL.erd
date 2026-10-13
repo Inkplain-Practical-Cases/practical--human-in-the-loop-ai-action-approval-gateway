@@ -1,0 +1,71 @@
+{
+  "erd_version": 1,
+  "name": "human-in-the-loop-ai-action-approval-gateway",
+  "step": "final",
+  "engine": "sqlite",
+  "generated_from": [
+    "app/providers/provider_record_request_audit.py",
+    "app/core/request_audit_middleware.py",
+    "app/main.py"
+  ],
+  "entities": [
+    {
+      "name": "approval_api_requests",
+      "kind": "table",
+      "step_change": "unchanged",
+      "source": "app/providers/provider_record_request_audit.py",
+      "description": "Metadata-only approval action API requests; no decision content.",
+      "fields": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "key": "PK"
+        },
+        {
+          "name": "route",
+          "type": "TEXT"
+        },
+        {
+          "name": "method",
+          "type": "TEXT"
+        },
+        {
+          "name": "created_at",
+          "type": "TEXT"
+        }
+      ]
+    },
+    {
+      "name": "approval_api_events",
+      "kind": "table",
+      "step_change": "unchanged",
+      "source": "app/providers/provider_record_request_audit.py",
+      "description": "Recorded HTTP status/latency for each approval API request.",
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "key": "PK"
+        },
+        {
+          "name": "request_id",
+          "type": "TEXT",
+          "references": "approval_api_requests.id"
+        },
+        {
+          "name": "http_status",
+          "type": "INTEGER"
+        },
+        {
+          "name": "duration_ms",
+          "type": "REAL"
+        },
+        {
+          "name": "occurred_at",
+          "type": "TEXT"
+        }
+      ]
+    }
+  ],
+  "relations": []
+}
